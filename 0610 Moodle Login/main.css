@@ -1,0 +1,158 @@
+.all-wrapper {
+    width: 530px;
+    margin: 0 auto;
+}
+
+.up-wrapper {
+    
+    border: 1px solid RGB(207,212,217);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.up-1 {
+    
+    color: RGB(56, 58, 60);
+    border-bottom: 1px solid RGB(207,212,217);
+    background-color: RGB(247,247,247);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.up-2 {
+    overflow: hidden;
+
+}
+
+.login-wrapper, .letter-wrapper {
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* 로그인 파트 시작 */
+.login-wrapper {
+    float: left;
+    width: 180px;
+    margin-left: 65px;
+}
+
+.login {
+    
+    width: 178px;
+    height: 35px;
+    border: 1px solid RGB(207,212,217);
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left: 10px;
+    color: black;
+}
+
+.login:focus {
+    
+    border: none;
+    box-shadow: none;
+    border: 1px solid RGB(108,181,241);
+    box-shadow: 0 0 0 3px RGB(201,221,243);
+   
+}
+
+.login::placeholder {
+    
+    color: RGB(138,145,152);
+}
+
+.checkbox {
+    display: inline;
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+form span {
+    
+    font-size: 14px;
+}
+
+input[type*="password"] {
+    
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+}
+
+input[type*="submit"] {
+    
+    width: 184px;
+    height: 35px;
+    margin-top: 28px;
+    border-radius: 3px;
+    border: none;
+    background-color: RGB(54,117,202);
+    color: white;
+    font-size: 15px;
+}
+
+
+/*로그인파트 끝 */
+
+.letter-wrapper {
+    
+    font-size: 14px;
+    float: right;
+    width: 180px;
+    margin-right: 62px;
+}
+
+.letter-wrapper :nth-child(1) {
+    
+    color: RGB(14, 120,208);
+    line-height: 20px;
+    
+}
+
+.letter-wrapper :nth-child(2) {
+    
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+
+
+.question-icon {
+    width: 17px;
+    position: relative;
+    top: 4px;
+    margin-left: 3px;
+}
+
+
+/*여기까지 up 부분.  */
+
+.down-wrapper {
+    
+    border: 1px solid RGB(207,212,217);
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 20px;
+    
+}
+
+.down-wrapper :nth-child(1) {
+    
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.down-wrapper :nth-child(2) {
+    
+    font-size: 14px;
+    padding-top: 13px;
+}

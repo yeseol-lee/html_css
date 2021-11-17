@@ -1,0 +1,10 @@
+@font-face {
+    src: url(../fonts/Pangolin-Regular.ttf);
+    font-family: 'nor';
+}
+
+p {
+    
+    font-family: 'nor', cursive;
+    font-weight: bold;
+}
