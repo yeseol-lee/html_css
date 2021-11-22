@@ -1,0 +1,38 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
+a:link {
+  text-decoration-color: greenyellow;
+}
+.manythings {
+  font-size: 25;
+}
+
+#onething {
+  background-color: burlywood;
+}
+
+* {
+  text-align: right;
+}
+
+.box p {
+  line-height: 30px;
+}
+
+.box p:first-child {
+  border-bottom: 1px solid black;
+}
+
+h1,
+h2,
+.intro {
+  background-color: forestgreen;
+}
